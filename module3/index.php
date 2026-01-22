@@ -41,33 +41,39 @@
 //         break;
 // }
 
-//WHile loop
+//While loop
 
-$numri = 0;
+// $numri = 0;
 
-while($numri <=5){
-    echo "The number is: $numri <hr>";
-    $numri++;
+// while($numri <=5){
+//     echo "The number is: $numri <hr>";
+//     $numri++;
+// }
+
+// // do while loop
+
+// $numri1 = 0;
+// do{
+//     echo "The number is: $numri1 <hr>";
+//     $numri1++;
+// }while($numri1 <=5);
+
+// //for loop
+// for($x=0; $x<=10; $x++){
+//     echo "The number is: $x <hr>";
+// }
+
+//foreach
+
+$cars = array("Audi", "BMW", "Tesla", "VW");
+
+foreach($cars as $car){
+    echo "$car <hr>";
 }
 
-// do while loop
+$age = array("Lum"=>"13", "Jora"=>"14", "Sufjan"=>"15");
 
-$numri1 = 0;
-do{
-    echo "The number is: $numri1 <hr>";
-    $numri1++;
-}while($numri1 <=5);
-
-//for loop
-
-for($x=0; $x<=10; $x++){
-    echo "The number is: $x <hr>";
+foreach($age as $x => $value){
+    echo "$x = $value <hr>";
 }
-
-
-
-
-
-
-
 ?>

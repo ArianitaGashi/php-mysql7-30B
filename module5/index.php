@@ -16,6 +16,7 @@ for($x = 0; $x<3; $x++){
     }
     echo "</ul>";
 }
+
 ?>
 
 <!DOCTYPE html>
@@ -77,6 +78,10 @@ $arianita = [
 ];
 
 echo "Arianitas math grade is ".$arianita['Math'];
+
+foreach($arianita as $subject => $arianita){
+    echo "Subject: ".$subject. " Grade: ".$arianita . "<hr>";
+}
 
 ?>
 

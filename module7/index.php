@@ -8,7 +8,7 @@
 
         $conn = new PDO("mysql:host=$host" , $user, $pass);
 
-        $sql = "CREATE DATABASE testnita";
+        $sql = "CREATE DATABASE testnita1";
 
         $conn->exec($sql);
 

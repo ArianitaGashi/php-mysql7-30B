@@ -1,5 +1,4 @@
 <?php
-session_start();
 
 $host="localhost";
 $user="root";
@@ -8,7 +7,7 @@ $dbname="testnita1";
 
 try {
 	
-	$conn =new PDO("mysql:host=$host;dbname=$dbname",$user,$pass);
+	$conn=new PDO("mysql:host=$host;dbname=$dbname",$user,$pass);
 
 } catch (PDOException $e) {
 	echo "error: " . $e->getMessage();
